@@ -1,7 +1,153 @@
-html {
-  max-width: 720px;
+.card > .one {
+  color: #7d1b8d;
 }
 
-body {
-  background: #fff;
+.card > .two {
+  color: rgb(14, 233, 76);
+}
+
+.card > .three {
+  color: rgba(139, 9, 52, 0.2);
+  background-color: rgb(161, 161, 235);
+}
+
+.card > .four {
+  color: hsla(249, 90%, 44%, 0.75);
+}
+
+.card > .five {
+  color: green;
+  -webkit-text-fill-color: red;
+  -webkit-text-stroke: 5px blue;
+}
+
+.card > .six {
+  color: green;
+  -webkit-text-fill-color: red;
+  -webkit-text-stroke: 1px blue;
+}
+
+.card > .seven {
+  direction: rtl;
+}
+
+.card {
+  color: yellow;
+}
+.card > .eight {
+  color: inherit;
+}
+
+.card > .nine {
+  color: initial;
+  writing-mode: vertical-rl;
+}
+
+.card > .ten {
+  color: initial;
+  text-align: center;
+}
+
+span {
+  color: initial;
+  text-align: center;
+}
+
+.card > .eleven {
+  color: initial;
+  text-align: center;
+  text-transform: uppercase;
+}
+.card > .eleven + span {
+  color: initial;
+  text-align: center;
+  text-transform: lowercase;
+}
+
+.card > .twelve {
+  color: initial;
+  text-align: justify;
+  tab-size: 20;
+}
+
+pre {
+  color: red;
+  tab-size: 4;
+}
+
+.card > .thirteen {
+  color: initial;
+  letter-spacing: 10px;
+}
+
+.thirteen + span {
+  letter-spacing: 2em;
+}
+
+.fourteen {
+  color: initial;
+  letter-spacing: 10px;
+  text-decoration: underline dotted red;
+}
+
+.p-b {
+  color: initial;
+
+  text-decoration-color: blue;
+}
+
+/* Урок Шрифти */
+
+* {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-display: swap;
+}
+
+.fifteen ~ span {
+  font-size: xx-small;
+}
+
+.fifteen ~ .font {
+  font-weight: bolder;
+  font-size: 18px;
+  font-style: italic;
+}
+
+/* Урок відображення блоків */
+
+.sixteen ~ .font {
+  display: none;
+}
+
+.block {
+  display: block;
+  width: min-content;
+  background: rgb(76, 206, 204);
+  margin: auto;
+}
+
+.inlineBlock {
+  display: inline-block;
+  margin: 10px;
+  background: green;
+  width: 250px;
+}
+
+.seventeen .block {
+  display: block;
+  width: min-content;
+  background: rgb(76, 206, 204);
+  margin: auto;
+  min-height: 200px;
+}
+
+/* Робота з рамками і тінями */
+
+.eighteen .card {
+  border: 1px solid red;
+}
+
+.nineteen .card {
+  border-top: 1px solid red;
 }
